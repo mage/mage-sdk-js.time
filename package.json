@@ -1,10 +1,10 @@
 {
   "name": "mage-sdk-js.time",
-  "version": "1.0.0",
-  "description": "## Installation",
+  "version": "0.1.0",
+  "description": "Time module for MAGE",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/mage/mage-sdk-js.time#readme",
   "dependencies": {
     "wizcorp-timer.js": "^0.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "pre-commit": "^1.2.2"
   }
 }
